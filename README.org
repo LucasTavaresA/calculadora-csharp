@@ -1,0 +1,27 @@
+#+TITLE: Calculadora csharp
+
+Calcula operações e mostra resultado no console
+
+*Projeto feito para pratica, não recomendo o uso, use [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] no lugar*
+
+Capaz de fazer múltiplos cálculos lendo linhas de um arquivo usando: =Programa arquivo.txt=
+
+Capaz de receber cálculos diretamente usando: =Programa 1 + 1= no console¹
+
+Evite as limitações do calculo no console¹ abrindo o programa que em seguida pedira o calculo
+
+* Limitações
+
+1. *No console* caracteres especiais do seu shell devem ser devidamente desmarcados com =\= sendo assim =1 \* 2=, *Varia dependendo do shell usado*
+
+2. Em todos os modos não ha organização de ordem das operações, sem suporte a parenteses
+
+3. Devido ao csharp esse método é muito lento levando cerca de *0.33s a 0.28s* pra fazer 100 contas lendo de um arquivo, Em comparação com o [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] que demora de *0.005s a 0.003s*, por ser feito na linguagem c
+
+* Para Fazer
+
+- Ordenar as operações suportando parenteses e calculando corretamente multiplicação, divisão e modulo sem necessidade de organizar as operações manualmente
+
+* Arquivos
+
+- contas.txt arquivo de teste contem operações para calculo
