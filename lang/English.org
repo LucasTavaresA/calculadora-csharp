@@ -1,4 +1,4 @@
-#+TITLE: Calculadora csharp
+#+TITLE: Csharp calculator
 
 Calculates operations and show results in the terminal
 

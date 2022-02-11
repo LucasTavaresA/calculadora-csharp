@@ -1,7 +1,7 @@
 #+TITLE: Calculadora csharp
 
 #+begin_center
-[[./lang/English.org][English]]🇺🇸
+[[./lang/English.org][English]] 🇺🇸
 #+end_center
 
 Calcula operações e mostra resultado no console
