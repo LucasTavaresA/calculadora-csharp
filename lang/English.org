@@ -1,0 +1,27 @@
+#+TITLE: Calculadora csharp
+
+Calculates operations and show results in the terminal
+
+*Project made to practice, i do not recomend, use [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] instead*
+
+Capable of making multiple calculations reading lines of a file using: =Program file.txt=
+
+Capable of receiving calculations directly using: =Program 1 + 1= in the terminal¹
+
+Avoid the limitations of calculating in the terminal by using the program that will ask for the calculus
+
+* Limitações
+
+1. *In the terminal* especial characters of your shell must be escaped by using =\= that being =1 \* 2=, *Varies from shell to shell*
+
+2. In all methods there's no order of operations and no parenthesis support
+
+3. Because of csharp this method is too slow taking and average of *0.33s to 0.28s* to solve 100 calculations of a file, In comparison with [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] that takes an average of *0.005s to 0.003s*, Cause is made in c language
+
+* TODO
+
+- Organize the order of operations and parenthesis
+
+* Files
+
+- contas.txt file to test

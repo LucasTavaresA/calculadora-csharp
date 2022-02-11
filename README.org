@@ -1,5 +1,9 @@
 #+TITLE: Calculadora csharp
 
+#+begin_center
+[[./lang/English.org][English]]🇺🇸
+#+end_center
+
 Calcula operações e mostra resultado no console
 
 *Projeto feito para pratica, não recomendo o uso, use [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] no lugar*
