@@ -18,7 +18,7 @@ Avoid the limitations of calculating in the terminal by using the program that w
 
 3. Because of csharp this method is too slow taking and average of *0.33s to 0.28s* to solve 100 calculations of a file, In comparison with [[https://pt.wikipedia.org/wiki/Bc_(linguagem_de_programa%C3%A7%C3%A3o)][bc]] that takes an average of *0.005s to 0.003s*, Cause is made in c language
 
-* TODO
+* TO DO
 
 - Organize the order of operations and parenthesis
 
